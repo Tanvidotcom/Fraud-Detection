@@ -1,5 +1,5 @@
 # Fraud Detection System — Project Summary
-### Internship Final Project | Tanvi | 25/05/2026
+### Final Project | 25/05/2026
 
 ---
 
@@ -43,11 +43,10 @@ learning and explainable AI that a real fraud analyst could trust and deploy.
 ## 5. Model Comparison
 | Model | Accuracy | Precision | Recall | F1 | ROC-AUC | PR-AUC |
 |---|---|---|---|---|---|---|
-| LightGBM | -- | -- | -- | -- | -- | -- |
-| XGBoost | -- | -- | -- | -- | -- | -- |
-| IsolationForest | -- | -- | -- | -- | N/A | N/A |
+| LightGBM | 0.8864 | 0.8638 | 0.7259 | 0.7889 | 0.9289 | 0.8840 |
+| XGBoost | 0.5469 | 0.3910 | 0.9855 | 0.5599 | 0.9268 | 0.8763 |
+| IsolationForest | 0.7179 | 0.6816 | 0.0663 | 0.1208 | N/A | N/A |
 
-> Fill in your actual numbers from the notebook output
 
 ---
 
@@ -74,9 +73,9 @@ well the model finds actual fraud cases — that is what matters.
 ## 9. Risk Segmentation
 | Tier | Probability | Action |
 |---|---|---|
-| 🔴 Critical | ≥ 0.75 | Auto-block + alert |
-| 🟡 Suspicious | 0.40–0.74 | Manual review |
-| 🟢 Clear | < 0.40 | Allow |
+|  Critical | ≥ 0.75 | Auto-block + alert |
+|  Suspicious | 0.40–0.74 | Manual review |
+|  Clear | < 0.40 | Allow |
 
 ---
 
