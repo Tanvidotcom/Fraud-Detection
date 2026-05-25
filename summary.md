@@ -106,7 +106,7 @@ Assuming 80% detection rate, 100,000 fraud cases/year, avg fraud $150:
 ---
 
 ## 14. Dashboard
-Live URL: [Add after deployment]
+Live URL: [https://fraud-detection-tanvi-zcbojz5ybh9rappywedadwk.streamlit.app/]
 
 ---
 
